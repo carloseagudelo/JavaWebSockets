@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pizarron Virtual</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Binvenido al Pizaron Virtual UdeA</h1>
+        <canvas id="miCanvas" width="800" height="300" style="border: 5px solid black;"></canvas>
+        <image id="theimage"><br/>
+        
+        <select id="colors"> 
+            <option>Seleccciones un color</option>
+        </select>
+        <input onclick="clearCanvas()" value="Limpiar Pizarra" type="button">
+        <a id="downloadLnk" download="ImagenCanvas.png">Descargue el canvas como imagen</a>
+        
+        
+        <script src="websocket.js"></script>
+        <script src="pizarron.js"></script>
+
+
+    </body>
+</html>
